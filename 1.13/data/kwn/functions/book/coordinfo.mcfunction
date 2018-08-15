@@ -1,0 +1,2 @@
+execute at @p[scores={kwn=320}] run tellraw @p [{"text":""},{"text":"[KWarpNeo] ","color":"green","bold":"true"},{"text":"Saved Coordinates: ","color":"yellow"},{"text":"X"},{"score":{"name":"@p","objective":"WarpX"},"color":"green"},{"text":" Y"},{"score":{"name":"@p","objective":"WarpY"},"color":"green"},{"text":" Z"},{"score":{"name":"@p","objective":"WarpZ"},"color":"green"}]
+scoreboard players set @a[scores={kwn=320}] kwn 0
